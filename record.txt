@@ -2,4 +2,5 @@
 Start 16:00 - 16:20
 - Templating
 - Desain Database
+- Create Repo and Commit to Github
 End
