@@ -7,7 +7,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= site_url('Dashboard') ?>">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
@@ -34,15 +34,21 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link" href="<?= base_url('#') ?>">
-                    <i class="fas fa-random"></i>
-                    <span>Data</span></a>
+                <a class="nav-link" href="<?= base_url('Transaksi') ?>">
+                    <i class="fas fa-file-invoice"></i>
+                    <span>Transaksi</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="<?= base_url('Master') ?>">
+                    <i class="fas fa-cogs"></i>
+                    <span>Master Barang</span></a>
             </li>
 
             <!-- Divider -->
             <!-- <hr class="sidebar-divider"> -->
 
-            
+
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
@@ -71,7 +77,7 @@
                     <!-- Topbar Search -->
                     <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                         <div class="input-group">
-                            <input type="text" class="form-control bg-light border-0 small" placeholder="Welcome, #" aria-label="Search" aria-describedby="basic-addon2" disabled>
+                            <input type="text" class="form-control bg-light border-0 small" placeholder="Welcome, <?= $name; ?>" aria-label="Search" aria-describedby="basic-addon2" disabled>
                         </div>
                     </form>
 
@@ -105,7 +111,7 @@
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">#</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= $name ?></span>
                                 <img class="img-profile rounded-circle" src="<?= site_url('assets/template/') ?>img/undraw_profile.svg">
                             </a>
                             <!-- Dropdown - User Information -->

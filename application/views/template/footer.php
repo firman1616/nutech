@@ -64,6 +64,9 @@
     var BASE_URL = "<?php echo base_url(); ?>";
 </script>
 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
 <!-- costume js -->
 <?php
 if (isset($footer_js)) {

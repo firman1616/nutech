@@ -10,10 +10,10 @@ class Dashboard extends CI_Controller
     {
         parent::__construct();
 
-        // if ($this->session->userdata('status') == FALSE || $this->session->userdata('level') != 1) {
+        if ($this->session->userdata('status') == FALSE || $this->session->userdata('level') != 1) {
 
-        //     redirect(base_url("login"));
-        // }
+            redirect(base_url("login"));
+        }
     }
 
 
@@ -22,7 +22,7 @@ class Dashboard extends CI_Controller
     {
         $data = [
 
-            // 'name'    => $this->session->userdata('nama'),
+            'name'    => $this->session->userdata('nama'),
             'title' => 'Dashboard',
             'conten' => 'conten/dashboard',
         ];

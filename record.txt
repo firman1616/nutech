@@ -4,3 +4,38 @@ Start 16:00 - 16:20
 - Desain Database
 - Create Repo and Commit to Github
 End
+
+29 April 2022
+Start 7:40
+- Login pagete
+- Setup Session Login
+- desaign UI Form master Data
+- deaign modal form add and edit
+- create function kode otomatis
+- create function upload image
+- create function add data
+- create function edit data
+- create function delete data
+- create function cek size image !> 100kb
+- create alert with sweetaler js
+11:30 Break sholat jumat
+
+12:30 Start Again
+- create sweetalert for confirm nonaktif data
+- create alert transaksi
+- desain ui transaksi
+- create autofill jika dipilih kode barang
+- create function simpan data
+- create function edit data
+- create function hapus data
+- create function penjumlahan untuk penjumlahan harga dan qty
+- buat query untuk menampilkan data transaksi
+- create generate kode transaksi
+14:15 Break
+
+14:51 Start Again
+- desaign tampilan edit data dan update
+- create notif delete pada transaksi
+- create triger for minus stock after insert transaction
+- create triger for plus stock after delete transaction
+16:00 End
